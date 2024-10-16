@@ -18,7 +18,8 @@ public class Principal {
             System.out.println("4) Real brasileño =>> Dólar");
             System.out.println("5) Dólar =>> Sol peruano");
             System.out.println("6) Sol peruano =>> Dólar");
-            System.out.println("7) Salir");
+            System.out.println("7) Mostrar historial de conversiones");
+            System.out.println("8) Salir");
             System.out.println("Elija una opción válida: ");
             System.out.println("*****************************************************");
             System.out.print(">>> ");
@@ -65,14 +66,16 @@ public class Principal {
                     System.out.printf("%.2f Soles peruanos son equivalentes a %.2f Dólares.%n", monto, dolaresDeSoles);
                     break;
                 case 7:
+                    conversor.getHistorial().mostrarHistorial(); // Mostrar historial de conversiones
+                    break;
+                case 8:
                     System.out.println("Saliendo del conversor. ¡Hasta luego!");
                     break;
                 default:
                     System.out.println("Opción inválida. Por favor, elija una opción válida.");
             }
-        } while (opcion != 7); // Continúa hasta que el usuario elija salir
+        } while (opcion != 8); // Continúa hasta que el usuario elija salir
 
         scanner.close(); // Cerrar el escáner
-
     }
 }
