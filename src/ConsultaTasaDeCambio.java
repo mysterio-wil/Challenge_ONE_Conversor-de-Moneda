@@ -28,4 +28,9 @@ public class ConsultaTasaDeCambio {
             throw new RuntimeException("Error al consultar la API de tasas de cambio: " + e.getMessage(), e);
         }
     }
+
+    // Método para obtener la URL de la API
+    public String getUrlApi() {
+        return urlApi;
+    }
 }
