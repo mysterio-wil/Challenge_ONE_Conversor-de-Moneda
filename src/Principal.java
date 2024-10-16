@@ -71,5 +71,8 @@ public class Principal {
                     System.out.println("Opción inválida. Por favor, elija una opción válida.");
             }
         } while (opcion != 7); // Continúa hasta que el usuario elija salir
+
+        scanner.close(); // Cerrar el escáner
+
     }
 }
