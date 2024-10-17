@@ -215,3 +215,25 @@ Desarrollado por: [mysterio-wil](https://github.com/mysterio-wil)
 ## Créditos
 
 API de [ExchangeRate-API](https://exchangerate-api.com)
+
+# Mejoras para la siguiente versión.
+
+### Aquí tienes las 5 mejoras más relevantes:
+
+1. **Interfaz Gráfica de Usuario (GUI)**: Implementar una interfaz gráfica que facilite la interacción del usuario con la aplicación, mejorando la experiencia frente al uso de la consola.
+
+2. **Manejo de Errores Avanzado**: Agregar validaciones más robustas y manejo de excepciones para situaciones como respuestas erróneas de la API, falta de conexión a internet, o entradas de usuario no válidas.
+
+3. **Soporte para Múltiples Idiomas**: Incluir la opción de elegir el idioma, comenzando con soporte para español e inglés, para hacer la aplicación más accesible internacionalmente.
+
+4. **Historial Persistente**: Implementar almacenamiento del historial de conversiones en un archivo o base de datos, permitiendo que el historial se mantenga disponible incluso después de cerrar la aplicación.
+
+5. **Conversión de Múltiples Monedas Simultáneamente**: Agregar una función que permita convertir una cantidad a varias monedas de forma simultánea, haciendo más eficiente el proceso para el usuario.
+
+Existen otras opciones en el mercado de APIs de tasa de cambio que ofrecen versiones gratuitas, similares a ExchangeRate. A continuación, presentamos algunas alternativas adicionales para ampliar tu conocimiento:
+
+Open Exchange Rates - [Open Exchange Rates](https://openexchangerates.org/)
+
+CoinGecko API - [Most Comprehensive Cryptocurrency API | CoinGecko](https://www.coingecko.com/api)
+
+Cada una de estas APIs tiene su propia documentación y características, lo que proporciona una variedad de opciones para enriquecer tu experiencia en el desarrollo del Conversor de Monedas. Explora estas opciones y elige aquella que mejor se adapte a tus objetivos y requisitos específicos.
